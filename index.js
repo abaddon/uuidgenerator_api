@@ -19,7 +19,6 @@ exports.handler = async (event) => {
       body: {
           uuids: uuidsGenerated
         }
-      //JSON.stringify(uuidsGenerated)
   };
 
   return response;
